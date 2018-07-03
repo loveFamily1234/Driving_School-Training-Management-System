@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<problem>
+		<title>变更车道前确认后方无来车时可以不开转向灯变道。</title>
+		<img>no</img>
+		<A>正确</A>
+		<B>错误</B>
+		<answer>B</answer>
+		<explanation>	
+		官方解读：变更车道前要提前开启转向灯，不管有无来车。要养成良好的开车习惯，防患于未然，因此本题错误。
+		</explanation>
+	</problem>
+	<problem>
+		<title>出车前检查冷却液、发动机机油、燃油等是否有渗漏现象。</title>
+		<img>no</img>
+		<A>正确</A>
+		<B>错误</B>
+		<answer>A</answer>
+		<explanation>	
+官方解读：驾驶机动车上道路行驶前，驾驶人要对机动车的安全技术性能进行认真检查，不得驾驶安全设施不全或者机件不符合技术标准等具有安全隐患的机动车，确保出行前一定都正常。
+		</explanation>
+	</problem>
+</document>

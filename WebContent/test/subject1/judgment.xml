@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<problem>
+		<title>驾驶机动车违反道路交通安全法律法规发生交通事故属于交通违章行为。</title>
+		<img>no</img>
+		<A>正确</A>
+		<B>错误</B>
+		<answer>B</answer>
+		<explanation>	
+		官方解读：“违反道路交通安全法”，违反法律法规即为违法行为。现在官方已无违章和违规的说法。
+		</explanation>
+	</problem>
+	<problem>
+		<title>对未取得驾驶证驾驶机动车的，追究其法律责任。</title>
+		<img>no</img>
+		<A>正确</A>
+		<B>错误</B>
+		<answer>A</answer>
+		<explanation>	
+官方解读：《道路交通安全法》第九十九条：未取得机动车驾驶证、机动车驾驶证被吊销或者机动车驾驶证被暂扣期间驾驶机动车的，由公安机关交通管理部门处二百元以上二千元以下罚款，可以并处十五日以下拘留。
+		</explanation>
+	</problem>
+</document>

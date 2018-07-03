@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/antlr-2.7.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/asm-3.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/asm-commons-3.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/asm-tree-3.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/com.springsource.org.apache.log4j-1.2.15.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/commons-collections-3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/commons-fileupload-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/commons-io-2.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/commons-lang3-3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/commons-logging-1.1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/dom4j-1.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/freemarker-2.3.19.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/hibernate3.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/javassist-3.11.0.GA.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/javassist-3.12.0.GA.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/jta-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/log4j-1.2.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/mysql-connector-java-5.1.38-bin.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/ognl-3.0.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/slf4j-api-1.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/slf4j-log4j12-1.7.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/spring-aop-3.2.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/spring-aspects-3.2.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/spring-beans-3.2.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/spring-context-3.2.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/spring-core-3.2.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/spring-expression-3.2.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/spring-jdbc-3.2.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/spring-orm-3.2.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/spring-struts-3.2.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/spring-test-3.2.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/spring-tx-3.2.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/spring-web-3.2.0.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/struts-core-1.3.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/struts2-core-2.3.15.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/struts2-spring-plugin-2.3.15.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/xwork-core-2.3.15.3.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_67">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

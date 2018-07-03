@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="entity.StudentVehicle" table="student_vehicle">
+		<id name="IDnumber" column="IDnumber"></id>
+		<property name="plateNumber" column="plateNumber"/>
+		<property name="timeSV" column="timeSV" />
+	</class>
+</hibernate-mapping>

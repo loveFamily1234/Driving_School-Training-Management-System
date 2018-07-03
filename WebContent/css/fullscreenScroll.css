@@ -1,0 +1,35 @@
+html,body{
+    height:100%;
+}
+body,ul,li,a,p,div{padding:0px; margin:0px; font-size:14px;}
+#wrap{
+    overflow: hidden;
+    width:100%;
+}
+#main{
+    height:2944px;
+    top:0;
+    position: relative;
+}
+.page{
+    width:100%;
+    margin:0;
+}
+#page1{
+    background:#E4E6CE;
+}
+#page2{
+    background:rgb(150,200,150);
+    padding-top:20px;
+}
+#page3{
+    background:#E4E6CE;
+    position:relative;
+    top:-20px;
+    padding-top:100px;
+}
+#page4{
+    background:#fff;
+    position:relative;
+    top:-120px;
+}

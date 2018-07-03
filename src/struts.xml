@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN" "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="default" extends="struts-default" namespace="/">
+		<action name="loginAction" class="loginAction">
+			<result name="operatorA">/功能主页之操作员A.jsp</result>
+			<result name="operatorB">/功能主页之操作员B.jsp</result>
+			<result name="operatorC">/功能主页之操作员C.jsp</result>
+			<result name="administrator">/功能主页之管理员.jsp</result>
+			<result name="student">/功能主页之学员.jsp</result>
+			<result name="failure">/loginFailure.jsp</result>
+		</action>
+		<action name="student_*" class="studentAction" method="{1}">
+			<result name="success">/successToFunctionOperA.jsp</result>
+			<result name="saveUI">/addStudent.jsp</result>
+			<result name="findAll">/学员结业.jsp</result>
+			<result name="findAll2">/学员退学.jsp</result>
+			<result name="findAll3">/学员信息维护.jsp</result>
+			<result name="modifyStatusToGraSuccess">/successToFunctionOperA.jsp</result>
+			<result name="modifyStatusToLeaveSuccess">/successToFunctionOperA.jsp</result>
+			<result name="editSuccess">/editStudent.jsp</result>
+			<result name="updateSuccess">/successToFunctionOperA.jsp</result>
+			<result name="deleteSuccess">/successToFunctionOperA.jsp</result>
+			<result name="findAll4">/学车进展.jsp</result>
+			<result name="findByIDSuccess">/学员信息维护.jsp</result>
+			<result name="exportExcelAll" type="stream">
+				<param name="contentType">application/vnd.ms-excel</param>
+				<param name="inputName">inputExcel</param>
+				<param name="contentDisposition">attachment;filename="${#request['filename']}"</param>
+				<param name="bufferSize">8192</param>
+			</result>
+		</action>
+		<action name="teacher_*" class="teacherAction" method="{1}">
+			<result name="findAll">/教练信息维护.jsp</result>
+			<result name="saveUI">/addTeacher.jsp</result>
+			<result name="saveSuccess">/successToFunctionOperA.jsp</result>
+			<result name="editSuccess">/editTeacher.jsp</result>
+			<result name="updateSuccess">/successToFunctionOperA.jsp</result>
+			<result name="deleteSuccess">/successToFunctionOperA.jsp</result>
+			<result name="queryStuSuccess">/teacherQueryStuResult.jsp</result>
+			<result name="queryVehicleSuccess">/teacherQueryVehicleResult.jsp</result>
+		</action>
+		<action name="vehicle_*" class="vehicleAction" method="{1}">
+			<result name="findAll">/车辆信息维护.jsp</result>
+			<result name="saveUI">/addVehicle.jsp</result>
+			<result name="saveSuccess">/successToFunctionOperB.jsp</result>
+			<result name="editSuccess">/editVehicle.jsp</result>
+			<result name="updateSuccess">/successToFunctionOperB.jsp</result>
+			<result name="deleteSuccess">/successToFunctionOperB.jsp</result>
+			<result name="findAllOut">/出车记录.jsp</result>
+			<result name="saveUIOut">/addVehicleOut.jsp</result>
+			<result name="findAllTypes">/车型管理.jsp</result>
+			<result name="saveUIType">/addVehicleType.jsp</result>
+			<result name="saveTypeSuccess">/successToFunctionAdmin.jsp</result>
+			<result name="editTypeSuccess">/editVehicleType.jsp</result>
+			<result name="updateTypeSuccess">/successToFunctionAdmin.jsp</result>
+			<result name="deleteTypeSuccess">/successToFunctionAdmin.jsp</result>
+		</action>
+		<action name="vehicleOut_*" class="vehicleOutAction" method="{1}">
+			<result name="saveSuccess">/successToFunctionOperB.jsp</result>
+			<result name="editSuccess">/editVehicleOut.jsp</result>
+			<result name="updateSuccess">/successToFunctionOperB.jsp</result>
+			<result name="deleteSuccess">/successToFunctionOperB.jsp</result>
+		</action>
+		<action name="modifyPasswordOperator_*" class="modifyPasswordOperatorAction" method="{1}">
+			<result name="updateSuccessA">/successToFunctionOperA.jsp</result>
+			<result name="updateSuccessB">/successToFunctionOperB.jsp</result>
+			<result name="updateSuccessC">/successToFunctionOperC.jsp</result>
+			<result name="updateAdminSuccess">/successToFunctionAdmin.jsp</result>
+			<result name="updateStuSuccess">/successToFunctionStu.jsp</result>
+			<result name="fail">/modifyPasswordFailure.jsp</result>
+		</action>
+		<action name="vehicleFee_*" class="vehicleFeeAction" method="{1}">
+			<result name="findAll">/车辆开销.jsp</result>
+			<result name="saveUI">/addVehicleFee.jsp</result>
+			<result name="saveSuccess">/successToFunctionOperB.jsp</result>
+			<result name="editSuccess">/editVehicleFee.jsp</result>
+			<result name="deleteAllSuccess">/successToFunctionOperB.jsp</result>
+			<result name="deleteSuccess">/successToFunctionOperB.jsp</result>
+		</action>
+		<action name="studentFee_*" class="studentFeeAction" method="{1}">
+			<result name="saveUI">/addStudentFee.jsp</result>
+			<result name="saveSuccess">/successToFunctionOperB.jsp</result>
+			<result name="findAllSuccess">/学员缴费退费.jsp</result>
+			<result name="editSuccess">/editStudentFee.jsp</result>
+			<result name="updateSuccess">/successToFunctionOperB.jsp</result>
+			<result name="deleteSuccess">/successToFunctionOperB.jsp</result>
+			<result name="deleteAllSuccess">/successToFunctionOperB.jsp</result>
+		</action>
+		<action name="studentVehicle_*" class="studentVehicleAction" method="{1}">
+			<result name="saveUI">/addStudentVehicle.jsp</result>
+			<result name="saveSuccess">/successToFunctionOperC.jsp</result>
+			<result name="findAllSuccess">/学员分车.jsp</result>
+			<result name="editSuccess">/editStudentVehicle.jsp</result>
+			<result name="updateSuccess">/successToFunctionOperC.jsp</result>
+			<result name="deleteSuccess">/successToFunctionOperC.jsp</result>
+		</action>
+		<action name="testAppointment_*" class="testAppointmentAction" method="{1}">
+			<result name="saveUI">/addTestAppointment.jsp</result>
+			<result name="saveSuccess">/successToFunctionOperC.jsp</result>
+			<result name="findAllSuccess">/考试预约.jsp</result>
+			<result name="editSuccess">/editTestAppointment.jsp</result>
+			<result name="updateSuccess">/successToFunctionOperC.jsp</result>
+			<result name="deleteSuccess">/successToFunctionOperC.jsp</result>
+		</action>
+		<action name="testScore_*" class="testScoreAction" method="{1}">
+			<result name="saveUI">/addTestScore.jsp</result>
+			<result name="saveSuccess">/successToFunctionOperC.jsp</result>
+			<result name="findAllSuccess">/考试成绩.jsp</result>
+			<result name="editSuccess">/editTestScore.jsp</result>
+			<result name="updateSuccess">/successToFunctionOperC.jsp</result>
+			<result name="deleteSuccess">/successToFunctionOperC.jsp</result>
+			<result name="updateStuSubject">/successToFunctionOperC.jsp</result>
+			<result name="NONE">/failureToFunctionOperC.jsp</result>
+		</action>
+		<action name="operator_*" class="operatorAction" method="{1}">
+			<result name="saveUI">/addOperator.jsp</result>
+			<result name="saveSuccess">/successToFunctionAdmin.jsp</result>
+			<result name="findAllSuccess">/操作员信息维护.jsp</result>
+			<result name="editSuccess">/editOperator.jsp</result>
+			<result name="updateSuccess">/successToFunctionAdmin.jsp</result>
+			<result name="deleteSuccess">/successToFunctionAdmin.jsp</result>
+			<result name="findAllAuthoritySuccess">/操作员权限设置.jsp</result>
+			<result name="editAuthoritySuccess">/editOperatorAuthority.jsp</result>
+		</action>
+		<action name="testChoice_*" class="testChoiceAction" method="{1}">
+			<result name="s1se">/showS1se.jsp</result>
+			<result name="s4se">/showS4se.jsp</result>
+			<result name="s4mc">/showS4mc.jsp</result>
+		</action> 
+		<action name="testJudgment_*" class="testJudgmentAction" method="{1}">
+			<result name="s1j">/showS1j.jsp</result>
+			<result name="s4j">/showS4j.jsp</result>
+		</action>
+	</package>
+</struts>

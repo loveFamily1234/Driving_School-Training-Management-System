@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="entity.TestAppointment" table="test_appointment">
+		<id name="id" column="id" type="java.lang.Integer">  
+            <generator class="native"></generator>  
+        </id>
+		<property name="IDnumber" column="IDnumber"/>
+		<property name="licenseType" column="licenseType"/>
+		<property name="subjectNow" column="subjectNow" />
+		<property name="timeTest" column="timeTest" />
+		<property name="testAddress" column="testAddress" />
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="entity.Operator" table="operator">
+		<id name="phoneNum" column="phoneNum"></id>
+		<property name="password" column="password" />
+		<property name="operName" column="operName" />
+		<property name="birthday" column="birthday" />
+		<property name="gender" column="gender" />
+		<property name="address" column="address" />
+		<property name="authority" column="authority" />
+		
+	</class>
+</hibernate-mapping>

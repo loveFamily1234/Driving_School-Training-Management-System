@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<problem>
+		<title>以欺骗、贿赂等不正当手段取得驾驶证被依法撤销驾驶许可的，多长时间不得重新申请驾驶许可？</title>
+		<img>no</img>
+		<A>3年内</A>
+		<B>终身</B>
+		<C>1年内</C>
+		<D>5年内</D>
+		<answer>A</answer>
+		<explanation>	官方解读：《公安部令第123号》规定：申请人以欺骗、贿赂等不正当手段取得机动车驾驶证的，公安机关交通管理部门收缴机动车驾驶证，撤销机动车驾驶许可；申请人在三年内不得再次申领机动车驾驶证。
+		</explanation>
+	</problem>
+	<problem>
+		<title>驾驶这种机动车上路行驶属于什么行为？</title>
+		<img>se2.jpg</img>
+		<A>违规行为</A>
+		<B>违章行为</B>
+		<C>违法行为</C>
+		<D>犯罪行为</D>
+		<answer>C</answer>
+		<explanation>	官方解读：《道路交通安全法》第十一条：机动车号牌应当按照规定悬挂并保持清晰、完整，不得故意遮挡、污损。违反《交通安全法》，所以是违法行为。
+		</explanation>
+	</problem>
+</document>

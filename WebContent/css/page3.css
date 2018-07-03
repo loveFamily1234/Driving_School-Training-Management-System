@@ -1,0 +1,83 @@
+#page3 .page3_main .page3_top .p1{
+    line-height: 40px;
+    font-size: 28px;
+    color: #4160A0;
+    margin-top:20px;
+}
+#page3 .page3_main .page3_top .p2{
+    line-height: 20px;
+    margin-top: 5px;
+    margin-bottom:20px;
+    font-size: 14px;
+    font-family: "Hiragino Sans GB","Hiragino Sans GB W3","Helvetica Neue","Microsoft YaHei",Helvetica,Arial,sans-serif;
+    color: #999;
+}
+#page3 .page3_main ul li .p1{
+    position: relative;
+    width: 85%;
+    line-height: 36px;
+    color: #999;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e9e9e9;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#page3 .page3_main ul li .p2{
+    position: relative;
+    width: 85%;
+    height: 120px;
+    overflow: hidden;
+    margin-top: 20px;
+    line-height: 24px;
+    padding-left: 50px;
+    color: #666;
+}
+#page3 .page3_main ul{
+	margin:0 35px;
+}
+#page3 .page3_main ul li{
+	float: left;
+    width: 382px;
+    height: 240px;
+    background: #fff;
+    padding: 15px;
+    border-radius:10px;
+}
+#page3 .page3_main ul .next_li{
+	margin-left:27px;
+}
+#page3 .page3_main ul li p{
+	text-align:left;
+	position:relative;
+}
+#page3 .page3_main ul li p .ask{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    background: #4160A0;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+#page3 .page3_main ul li p .answer{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    background: #F5AD1D;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+
+
+

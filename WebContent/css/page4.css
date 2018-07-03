@@ -1,0 +1,78 @@
+#page4 .compare {
+	padding:50px 60px;
+}
+
+#page4 .compare .col {
+	float: left;
+	line-height: 46px;
+	text-align: center;
+	font-size: 16px;
+	font-family: "Hiragino Sans GB", "Hiragino Sans GB W3", "Helvetica Neue",
+		"Microsoft YaHei", Helvetica, Arial, sans-serif;
+}
+
+#page4 .compare .col_1 {
+	width: 460px;
+}
+
+#page4 .compare .col_2 {
+	position: relative;
+	width: 80px;
+	margin-left: 140px;
+}
+
+#page4 .compare .col_3 {
+	float: right;
+	width: 420px;
+}
+
+#page4 .compare .col p{
+	margin: 25px 0;
+	padding: 0 5px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+#page4 .compare .col_1 p{
+	background-color: rgba(55,181,248,.3);
+	border-radius:10px;
+}
+#page4 .compare .col_2 p{
+	background-color: #c4a8d9;
+    padding: 0;
+    color: #3D72B4;
+    border-radius:10px;
+    position:relative;
+    z-index:2;
+}
+#page4 .compare .col_3 p{
+	background-color:#000;
+	opacity:0.5;
+    color: #fff;
+    border-radius:10px;
+}
+#page4 .compare .col .title{
+	line-height: 50px;
+    font-size: 30px;
+}
+#page4 .compare .col_1 .title{
+	font-size: 30px;
+}
+#page4 .compare .col_2 .title{
+	font-size: 40px;
+    font-weight: 700;
+    color: #EE4653;
+}
+#page4 .compare .col_3 .title{
+	font-size: 30px;
+    color: #999;
+}
+#page4 .compare .col_2 .bg-line{
+	position: absolute;
+    top: 80px;
+    bottom: 30px;
+    left: 50%;
+    z-index: 0;
+    width: 1px;
+    border-left: 1px solid #cccccc;
+}

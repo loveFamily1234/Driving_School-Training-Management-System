@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="entity.Student" table="student">
+		<id name="IDnumber" column="IDnumber">
+
+		</id>
+		<property name="phoneNum" column="phoneNum" />
+		<property name="password" column="password" />
+
+		<property name="stuName" column="stuName" />
+		<property name="birthday" column="birthday" />
+		<property name="gender" column="gender" />
+		<property name="address" column="address" />
+		<property name="licenseType" column="licenseType" />
+		<property name="firstGet" column="firstGet" />
+		<property name="fee" column="fee" />
+		<property name="registerDate" column="registerDate" />
+		
+		<property name="teacherID" column="teacherID"/>
+		<property name="subjectNow" column="subjectNow"/>
+		<property name="statusNow" column="statusNow"/>
+		<property name="endTime" column="endTime" />
+	</class>
+</hibernate-mapping>

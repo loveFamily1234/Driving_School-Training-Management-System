@@ -1,0 +1,21 @@
+/*重置*/
+#page2 div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+#page2 table{border-collapse:collapse;border-spacing:0;}
+#page2 fieldset,img{border:0;}
+#page2 address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+#page2 ol,ul{list-style:none;}
+#page2 caption,th{text-align:left;}
+#page2 h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+#page2 q:before,q:after{content: ;}
+#page2 abbr,acronym{border:0;}
+#page2 .clearfix:after {visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
+#page2 .clearfix {zoom:1;}	
+#page2 #name{margin:40px auto 80px;border-radius:10px;width:300px;height:60px;background-color:#000;opacity:0.5;color:#FFF;line-height:60px;text-align:center;font-family:楷体;font-size:36px;}
+/*旋转木马必要样式*/
+#page2 .poster-main{ margin:20px auto;position:relative;width:800px;height:400px;}
+#page2 .poster-main a,.poster-main img{display:block;}
+#page2 .poster-main .poster-list{width:800px;height:400px;}
+#page2 .poster-main .poster-list .poster-item{ position:absolute;left:0;top:0;}
+#page2 .poster-main .poster-btn{ position:absolute;top:0px;width:100px;height:270px; z-index:10; cursor:pointer;  opacity:0.8}
+#page2 .poster-main .poster-prev-btn{left:0; background: url(../img/btn_l.png) no-repeat center center;}
+#page2 .poster-main .poster-next-btn{right:0; background: url(../img/btn_r.png) no-repeat center center;}
